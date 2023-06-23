@@ -1,0 +1,33 @@
+digraph G {
+node_0 [label="main, int"shape=invtrapezium color=blue];
+node_0 -> node_1;
+node_1 [label="BLOC"];
+node_1 -> node_2;
+node_2 [label=":="];
+node_2 -> node_3;
+node_3 [label="TAB"];
+node_3 -> node_4;
+node_4 [label="tab"];
+node_3 -> node_5;
+node_5 [label="3"];
+node_2 -> node_6;
+node_6 [label="TAB"];
+node_6 -> node_7;
+node_7 [label="tab"];
+node_6 -> node_8;
+node_8 [label="200"];
+node_1 -> node_9;
+node_9 [label=":="];
+node_9 -> node_10;
+node_10 [label="TAB"];
+node_10 -> node_11;
+node_11 [label="tab"];
+node_10 -> node_12;
+node_12 [label="400"];
+node_9 -> node_13;
+node_13 [label="TAB"];
+node_13 -> node_14;
+node_14 [label="tab"];
+node_13 -> node_15;
+node_15 [label="0"];
+}
